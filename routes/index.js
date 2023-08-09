@@ -1,4 +1,4 @@
-module.exports = app => {
+module.exports = (app) => {
 
     app.get('/', (req, res) => {
 
@@ -7,4 +7,5 @@ module.exports = app => {
         res.end('<h1>Olá</h1>');
 
     });
+
 };
