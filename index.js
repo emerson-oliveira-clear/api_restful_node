@@ -9,9 +9,10 @@ app.use(bodyParser.json());
 
 consign().include('routes').into(app);
 
-app.listen(3000, '127.0.0.1', () => {
+app.listen(3000, 'localhost', () => {
 
     console.log("servidor rodando!");
 
+   
 });
 
